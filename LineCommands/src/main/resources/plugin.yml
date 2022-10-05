@@ -1,0 +1,22 @@
+name: LineCommands
+version: '${project.version}'
+main: me.alkaison.linecommands.LineCommands
+api-version: 1.19
+authors: [ Alkaison ]
+description: Plugin for learning commands module
+commands:
+  god:
+    description: Become invincible
+    usage: /<command>
+    aliases:
+      - bhagwan
+  heal:
+    description: Become healthy
+    usage: /<command>
+    aliases:
+      - recover
+  feed:
+    description: Fills stomach
+    usage: /<command>
+    aliases:
+      - food
