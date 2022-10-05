@@ -15,7 +15,7 @@ Spigot java plugins made by Alkaison
 
 For personal project support, join our Discord Server [here](https://discord.gg/dF4PHpA "Byte Hub Discord")
 
-## MIT License - [here](https://github.com/Alkaison/Projects-in-C/blob/main/LICENSE.md "MIT License")
+## MIT License - [here](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/LICENSE "MIT License")
 
 Copyright (c) 2022 Alkaison
 
