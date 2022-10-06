@@ -1,5 +1,25 @@
-# Spigot-Java-Plugins
-Spigot java plugins made by Alkaison
+
+# Spigot Java Plugins
+
+#### Minecraft Server Plugins made on various different concepts & basis. All the plugins listed here are made by me -> **Alkaison**
+
+## 01. JoinLeaveMessages - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/JoinLeaveMessage-0.1.2.jar "JoinLeaveMessage")
+
+ Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
+ 
+**Note:** *There is a default message that I've placed inside the plugin because message customisation is not yet available in this version.*
+
+## 02. LineCommands - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/LineCommands-0.1.5.jar "LineCommands")
+
+This plugin introduces the basics of the player commands, different functions & types of sender.
+
+**Commands with Alias:**
+
+- /god (Alias: bhagwan) **-** makes the player invincible.
+- /heal (Alias: recover) **-** fulls the player's heart.
+- /feed (Alias: food) **-** fulls the player's hunger bar.
+
+**Note**: *All three of these commands can be used by players without their permission.*
 
 ## Contact me through 📨
 
