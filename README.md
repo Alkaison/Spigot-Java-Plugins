@@ -7,13 +7,13 @@
 
  Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
  
- #### 01. First Time Player Join Message
+- First Time Player Join Message
  ![First_Welcome_Messgae](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Plugin-Images/First_Join_Welcome_Message.png)
 
- #### 02. Player Join Message 
+- Player Join Message 
  ![Join_Message](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Plugin-Images/Join_Message.jpg)
 
- #### 03. Player Leave Message 
+- Player Leave Message 
  ![Left_Message](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Plugin-Images/Left_Message.jpg)
 
 **Note:** *There is a default message that I've placed inside the plugin because message customisation is not yet available in this version.*
