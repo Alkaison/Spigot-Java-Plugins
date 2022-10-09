@@ -7,9 +7,8 @@
 
  Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
 
- **Image**:
- <br>
- ![JoinLeaveMessages Images](https://github.com/Alkaison/Spigot-Java-Plugins/blob/v0.1.3/Images/JoinLeaveMessage-1.png)
+ **Image**:   <br><br>
+ ![JoinLeaveMessages Images](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Images/JoinLeaveMessage-1.png)
 
  **Default Config.yml**:
  ```yml
