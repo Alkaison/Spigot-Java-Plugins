@@ -16,15 +16,23 @@ public class heal implements CommandExecutor {
         {
             Player p = (Player) sender;
 
-            if(p.getHealth() == 20)
+            if(p.hasPermission(("lc.heal")))
             {
-                p.sendMessage(ChatColor.YELLOW + "You are already healthy.");
+                if(p.getHealth() == 20)
+                {
+                    p.sendMessage(ChatColor.YELLOW + "You are already healthy.");
+                }
+                else
+                {
+                    p.setHealth(20);
+                    p.sendMessage(ChatColor.GREEN + "You are healed now!");
+                }
             }
             else
             {
-                p.setHealth(20);
-                p.sendMessage(ChatColor.GREEN + "You are healed now!");
+                p.sendMessage(ChatColor.YELLOW + "You don't have the required permission (" + ChatColor.RED + "lc.heal" + ChatColor.YELLOW + ").");
             }
+
         } else if (sender instanceof ConsoleCommandSender) {
             Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.RED + "The command can only be run by a player while being in-game.");
         } else if (sender instanceof BlockCommandSender) {

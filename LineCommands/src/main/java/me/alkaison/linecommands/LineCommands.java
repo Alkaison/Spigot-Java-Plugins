@@ -10,7 +10,7 @@ public final class LineCommands extends JavaPlugin {
     @Override
     public void onEnable() {
         // Registering the commands
-        Objects.requireNonNull(getCommand("god")).setExecutor(new Godmode());
+        Objects.requireNonNull(getCommand("god")).setExecutor(new god());
         Objects.requireNonNull(getCommand("heal")).setExecutor(new heal());
         Objects.requireNonNull(getCommand("feed")).setExecutor(new feed());
 

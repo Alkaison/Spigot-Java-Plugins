@@ -15,15 +15,24 @@ public class feed implements CommandExecutor {
         if(sender instanceof Player)
         {
             Player p = (Player) sender;
-            if(p.getFoodLevel() == 20)
+
+            if(p.hasPermission("lc.feed"))
             {
-                p.sendMessage(ChatColor.YELLOW + "Your stomach is full.");
+                if(p.getFoodLevel() == 20)
+                {
+                    p.sendMessage(ChatColor.YELLOW + "Your stomach is full.");
+                }
+                else
+                {
+                    p.setFoodLevel(20);
+                    p.sendMessage(ChatColor.GREEN + "You are now ready to Goo!");
+                }
             }
             else
             {
-                p.setFoodLevel(20);
-                p.sendMessage(ChatColor.GREEN + "You are now ready to Goo!");
+                p.sendMessage(ChatColor.YELLOW + "You don't have the required permission (" + ChatColor.RED + "lc.feed" + ChatColor.YELLOW + ").");
             }
+
         } else if (sender instanceof ConsoleCommandSender) {
             Bukkit.getServer().getConsoleSender().sendMessage(ChatColor.RED + "The command can only be run by a player while being in-game.");
         } else if (sender instanceof BlockCommandSender) {

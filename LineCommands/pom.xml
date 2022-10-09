@@ -6,7 +6,7 @@
 
     <groupId>me.alkaison</groupId>
     <artifactId>LineCommands</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
     <packaging>jar</packaging>
 
     <name>LineCommands</name>
