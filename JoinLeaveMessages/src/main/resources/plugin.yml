@@ -4,3 +4,7 @@ main: me.alkaison.joinleavemessage.JoinLeaveMessage
 api-version: 1.19
 authors: [ Alkaison ]
 description: A plugin to set custom leave and join messages.
+commands:
+  debug:
+    description: Returns all the messages from config.yml
+    usage: /<command>

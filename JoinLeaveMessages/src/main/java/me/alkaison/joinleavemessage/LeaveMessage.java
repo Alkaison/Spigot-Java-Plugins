@@ -8,11 +8,14 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 public class LeaveMessage implements Listener {
 
+    JoinLeaveMessage plugin = JoinLeaveMessage.getPlugin(JoinLeaveMessage.class);
+
     @EventHandler
     public void onLeave(PlayerQuitEvent e){
         //triggers when a player leaves the server.
         Player player = e.getPlayer();
-        e.setQuitMessage(ChatColor.AQUA + "" + player.getDisplayName() + "" + ChatColor.GREEN + " come back again please");
+        String leaveMessage = plugin.getConfig().getString("leave-message");
+        e.setQuitMessage(ChatColor.AQUA + " " + player.getDisplayName() + " " + ChatColor.GREEN + "" + leaveMessage);
     }
 
 }

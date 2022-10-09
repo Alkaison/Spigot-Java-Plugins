@@ -3,30 +3,39 @@
 
 #### Minecraft Server Plugins made on various different concepts & basis. All the plugins listed here are made by [**Alkaison**](https://github.com/Alkaison "Alkaison")
 
-## 01. JoinLeaveMessages - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/JoinLeaveMessage-0.1.2.jar "JoinLeaveMessage v0.1.2")
+## 01. JoinLeaveMessages - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/releases/tag/v0.1.3 "JoinLeaveMessage v0.1.3")
 
  Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
- 
-- First Time Player Join Message
- ![First_Welcome_Messgae](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Plugin-Images/First_Join_Welcome_Message.png)
 
-- Player Join Message 
- ![Join_Message](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Plugin-Images/Join_Message.jpg)
+ **Image**:
+ <br>
+ ![JoinLeaveMessages Images](https://github.com/Alkaison/Spigot-Java-Plugins/blob/v0.1.3/Images/JoinLeaveMessage-1.png)
 
-- Player Leave Message 
- ![Left_Message](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Plugin-Images/Left_Message.jpg)
+ **Default Config.yml**:
+ ```yml
+# -------------------------------------
+# JoinLeaveMessages Plugin config.yml
+# -------------------------------------
 
-**Note:** *There is a default message that I've placed inside the plugin because message customisation is not yet available in this version.*
+# Player First Time joining message
+first-time-join-message: "has just entered in the universe of Minecraft Servers!"
 
-## 02. LineCommands - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/LineCommands-0.1.6.jar "LineCommands v0.1.6")
+# Player Joining Message
+join-message: "has joined our party!"
+
+# Player leave message
+leave-message: "will be coming back in a while"
+ ```
+
+## 02. LineCommands - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/releases/tag/v0.1.6 "LineCommands v0.1.6")
 
 This plugin introduces the basics of the player commands, different functions & types of sender.
 
 **Commands with Alias:**
 
 - **/god** (Alias: bhagwan) **-** makes the player invincible.
-   - Permission: *lc.god*
-   
+  - Permission: *lc.god*
+
 - **/heal** (Alias: recover) **-** fulls the player's heart.
   - Permission: *lc.heal*
   

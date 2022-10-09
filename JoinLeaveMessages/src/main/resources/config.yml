@@ -1,0 +1,12 @@
+# -------------------------------------
+# JoinLeaveMessages Plugin config.yml
+# -------------------------------------
+
+# Player First Time joining message
+first-time-join-message: "has just entered in the universe of Minecraft Servers!"
+
+# Player Joining Message
+join-message: "has joined our party!"
+
+# Player leave message
+leave-message: "will be coming back in a while"
