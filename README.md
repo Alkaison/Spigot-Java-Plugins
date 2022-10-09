@@ -3,7 +3,7 @@
 
 #### Minecraft Server Plugins made on various different concepts & basis. All the plugins listed here are made by [**Alkaison**](https://github.com/Alkaison "Alkaison")
 
-## 01. JoinLeaveMessages - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/JoinLeaveMessage-0.1.2.jar "JoinLeaveMessage")
+## 01. JoinLeaveMessages - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/JoinLeaveMessage-0.1.2.jar "JoinLeaveMessage v0.1.2")
 
  Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
  
@@ -18,15 +18,20 @@
 
 **Note:** *There is a default message that I've placed inside the plugin because message customisation is not yet available in this version.*
 
-## 02. LineCommands - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/LineCommands-0.1.5.jar "LineCommands")
+## 02. LineCommands - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Downloads/LineCommands-0.1.6.jar "LineCommands v0.1.6")
 
 This plugin introduces the basics of the player commands, different functions & types of sender.
 
 **Commands with Alias:**
 
-- /god (Alias: bhagwan) **-** makes the player invincible.
-- /heal (Alias: recover) **-** fulls the player's heart.
-- /feed (Alias: food) **-** fulls the player's hunger bar.
+- **/god** (Alias: bhagwan) **-** makes the player invincible.
+   - Permission: *lc.god*
+   
+- **/heal** (Alias: recover) **-** fulls the player's heart.
+  - Permission: *lc.heal*
+  
+- **/feed** (Alias: food) **-** fulls the player's hunger bar.
+  - Permission: *lc.feed*
 
 **Note**: *All three of these commands can be used by players without their permission.*
 
