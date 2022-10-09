@@ -33,8 +33,6 @@ This plugin introduces the basics of the player commands, different functions & 
 - **/feed** (Alias: food) **-** fulls the player's hunger bar.
   - Permission: *lc.feed*
 
-**Note**: *All three of these commands can be used by players without their permission.*
-
 ## Contact me through 📨
 
 [![Discord Server](https://github.com/gauravghongde/social-icons/blob/master/SVG/Color/Discord.svg)](https://discord.gg/dF4PHxbHpA)
