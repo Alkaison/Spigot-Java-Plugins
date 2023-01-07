@@ -1,17 +1,19 @@
 
 # Spigot Java Plugins
 
-#### Minecraft Server Plugins made on various different concepts & basis. All the plugins listed here are made by [**Alkaison**](https://github.com/Alkaison "Alkaison")
+Minecraft Server Plugins made on various different concepts & basis. All the plugins listed here are made by [**Alkaison**](https://github.com/Alkaison "Alkaison")
 
 ## 01. JoinLeaveMessages - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/releases/tag/v0.1.3 "JoinLeaveMessage v0.1.3")
 
- Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
+Sends custom message on player join & leave. Sends a unique message when a player joins the server for the first time.
 
- **Image**:   <br><br>
- ![JoinLeaveMessages Images](https://github.com/Alkaison/Spigot-Java-Plugins/blob/main/Images/JoinLeaveMessage-1.png)
+### **Image**: 
+ 
+![JoinLeaveMessages Images](/Images/JoinLeaveMessage-1.png)
 
- **Default Config.yml**:
- ```yml
+## **Default Config.yml**:
+ 
+```yml
 # -------------------------------------
 # JoinLeaveMessages Plugin config.yml
 # -------------------------------------
@@ -24,13 +26,14 @@ join-message: "has joined our party!"
 
 # Player leave message
 leave-message: "will be coming back in a while"
- ```
+
+```
 
 ## 02. LineCommands - [Download](https://github.com/Alkaison/Spigot-Java-Plugins/releases/tag/v0.1.6 "LineCommands v0.1.6")
 
 This plugin introduces the basics of the player commands, different functions & types of sender.
 
-**Commands with Alias:**
+### **Commands with Alias:**
 
 - **/god** (Alias: bhagwan) **-** makes the player invincible.
   - Permission: *lc.god*
@@ -40,16 +43,6 @@ This plugin introduces the basics of the player commands, different functions & 
   
 - **/feed** (Alias: food) **-** fulls the player's hunger bar.
   - Permission: *lc.feed*
-
-## Contact me through 📨
-
-[![Discord Server](https://github.com/gauravghongde/social-icons/blob/master/SVG/Color/Discord.svg)](https://discord.gg/dF4PHxbHpA)
-&ensp;
-[![LinkedIn Profile](https://github.com/gauravghongde/social-icons/blob/master/SVG/Color/LinkedIN.svg)](https://www.linkedin.com/in/alkaison)
-&ensp;
-[![MailID](https://github.com/Alkaison/GitBashDemo/blob/main/mail.svg)](mailto:505ganeshmourya@gmail.com)
-&ensp;
-[![Ko-Fi Profile](https://github.com/Alkaison/GitBashDemo/blob/main/donate.svg)](https://ko-fi.com/alkaison)
 
 ## Support
 
