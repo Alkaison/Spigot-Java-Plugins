@@ -9,7 +9,7 @@ Sends custom message on player join & leave. Sends a unique message when a playe
 
 ### **Image**: 
  
-![JoinLeaveMessages Images](/Images/JoinLeaveMessage-1.png)
+![JoinLeaveMessages Images](https://i.ibb.co/Dk3gLnD/Join-Leave-Message-1.png)
 
 ## **Default Config.yml**:
  
